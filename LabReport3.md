@@ -74,8 +74,7 @@ The updated method fixed this by iterating up to half of the array's length & cr
 ## **Part 2-Researching Commands:** <br/>
 
 **"Find" Command:** <br/>
-
-4 different methods of use, 2 examples for each:
+I asked ChatGPT, "What are four different ways to use the find command in command line?" and learned several interesting uses for the find command. Here are 4 different methods of use, 2 examples for each:
 <br/>
 
 **Find File by Name:** <br/>
@@ -89,6 +88,10 @@ The updated method fixed this by iterating up to half of the array's length & cr
 
 <br/>
 
+Here, we are searching for files by their names. It returns files that have names matching the input provided. (Found through ChatGPT, with prompt stated above)
+
+<br/>
+
 **Find Directory by Name:** <br/>
 
 ```
@@ -97,6 +100,10 @@ The updated method fixed this by iterating up to half of the array's length & cr
 (base) Lindseys-MacBook-Pro:docsssearch Linz$ find . -type d -name "biomed"
 ./technical/biomed
 ```
+
+<br/>
+
+Here, we are searching for directories by their names. It returns directories that have names matching the input provided. (Found through ChatGPT, with prompt stated above)
 
 <br/>
 
@@ -152,6 +159,10 @@ The updated method fixed this by iterating up to half of the array's length & cr
 
 <br/>
 
+Here, we are searching by type. I used the command to search for directories by their type (-type d) with two different paths. It returns directories that are in the provided path. (Found through ChatGPT, with prompt stated above)
+
+<br/>
+
 **Find File by Size:** <br/>
 
 ```
@@ -185,6 +196,10 @@ The updated method fixed this by iterating up to half of the array's length & cr
 ./technical/911report/chapter-9.txt
 ./technical/911report/chapter-12.txt
 ```
+
+<br/>
+
+Here, we are searching for files by size. In the first example, I searched for all files with a size less than 1 megabyte. In the second example, I searched for files with a size greater than 100 kilobytes. (Found through ChatGPT, with prompt stated above)
 
 <br/>
 
