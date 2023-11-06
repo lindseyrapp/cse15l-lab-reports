@@ -49,6 +49,9 @@ public void testReverseInPlace() {
   }
 ```
 <br/>
+The original code failed because it tried to reverse the array by copying values from the end all the way to the beginning. Because of this, elements were overwritten, & the array produced was not reversed as desired.
+The updated method fixed this by iterating up to half of the array's length & creating a temporary array to store values. During each iteration, the new method swaps the elements from the beginning and the end of the array. Because “temp” was created, no values were overwritten like before, so it works as desired.
+<br/>
 
 ## **Part 2-Researching Commands:** <br/>
 **Path to Private Key:** <br/>
