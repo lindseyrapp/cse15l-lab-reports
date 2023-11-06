@@ -88,7 +88,7 @@ I asked ChatGPT, "What are four different ways to use the find command in comman
 
 <br/>
 
-Here, we are searching for files by their names. It returns files that have names matching the input provided. (Found through ChatGPT, with prompt stated above)
+Here, we are searching for files by their names. It returns files that have names matching the input provided. This is useful when you are trying to find where a certain file is in a repository, and all you know is its name. (Found through ChatGPT, with prompt stated above)
 
 <br/>
 
@@ -103,11 +103,11 @@ Here, we are searching for files by their names. It returns files that have name
 
 <br/>
 
-Here, we are searching for directories by their names. It returns directories that have names matching the input provided. (Found through ChatGPT, with prompt stated above)
+Here, we are searching for directories by their names. It returns directories that have names matching the input provided. This is useful when trying to find locations of directories in large repositories by their name when things may get lost or hidden. (Found through ChatGPT, with prompt stated above)
 
 <br/>
 
-**Find Directory by Type:** <br/>
+**Find by Type:** <br/>
 
 ```
 (base) Lindseys-MacBook-Pro:docsssearch Linz$ find ./ -type d
@@ -159,7 +159,7 @@ Here, we are searching for directories by their names. It returns directories th
 
 <br/>
 
-Here, we are searching by type. I used the command to search for directories by their type (-type d) with two different paths. It returns directories that are in the provided path. (Found through ChatGPT, with prompt stated above)
+Here, we are searching by type. I used the find command to search for directories by using their type (-type d) with two different paths. It returns directories that are in the provided paths. This is useful when trying to find and list all elements of specified types in repositories (for example: only files, only directories, etc.). You can use this command for other types as well, such as files: type f. The reason I am not showing this is that the list of files returned is extremely long, so I provided two examples with type d instead. (Found through ChatGPT, with prompt stated above)
 
 <br/>
 
@@ -199,7 +199,7 @@ Here, we are searching by type. I used the command to search for directories by 
 
 <br/>
 
-Here, we are searching for files by size. In the first example, I searched for all files with a size less than 1 megabyte. In the second example, I searched for files with a size greater than 100 kilobytes. (Found through ChatGPT, with prompt stated above)
+Here, we are searching for files by size. In the first example, I searched for all files with a size less than 1 megabyte. In the second example, I searched for files with a size greater than 100 kilobytes. This is useful when you are trying to only look for files that meet certain size requirements. (Found through ChatGPT, with prompt stated above)
 
 <br/>
 
