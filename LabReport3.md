@@ -21,6 +21,12 @@ public void testReverseInPlace() {
   }
 ```
 <br/>
+**Symptom:** <br/>
+**With Failure Inducing Input:** <br/>
+![Image](privPath.png) <br/>
+**With Input that does not Induce Failure:** <br/>
+![Image](privPath.png) <br/>
+
 
 
 ## **Part 2-Researching Commands:** <br/>
