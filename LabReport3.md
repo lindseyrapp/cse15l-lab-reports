@@ -1,8 +1,11 @@
 # Lab Report 3 by Lindsey Rappaport
+
 ## *Week 5 - Bugs and Commands*
+
 ## CS 15L
 
 ## **Part 1-Bugs:** <br/>
+
 **Failure Inducing Input in Test:** <br/>
 
 ```
@@ -14,6 +17,7 @@ public void testReverseInPlace() {
 ```
 
 <br/>
+
 **Input that does not Induce Failure in Test:** <br/>
 
 ```
@@ -25,10 +29,15 @@ public void testReverseInPlace() {
 ```
 
 <br/>
+
 **Symptom:** <br/>
+
 **With Failure Inducing Input:** <br/>
+
 ![Image](failInduce.png) <br/>
+
 **With Input that does not Induce Failure:** <br/>
+
 ![Image](noFail.png) <br/>
 
 **Code Before Fix:** <br/>
@@ -43,6 +52,7 @@ public void testReverseInPlace() {
 ```
 
 <br/>
+
 **Code After Fix:** <br/>
 
 ```
