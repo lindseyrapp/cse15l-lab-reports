@@ -72,10 +72,120 @@ The updated method fixed this by iterating up to half of the array's length & cr
 <br/>
 
 ## **Part 2-Researching Commands:** <br/>
-**Path to Private Key:** <br/>
-![Image](privPath.png) <br/>
-**Path to Public Key:** <br/>
-![Image](pubPath.png) <br/>
-**Successful Login with no Password:** <br/>
-![Image](successNoPW.png) <br/>
+
+**"Find" Command:** <br/>
+
+4 different methods of use, 2 examples for each:
+<br/>
+
+**Find File by Name:** <br/>
+
+```
+(base) Lindseys-MacBook-Pro:docsssearch Linz$ find . -name "preface.txt"
+./technical/911report/preface.txt
+(base) Lindseys-MacBook-Pro:docsssearch Linz$ find . -name "bcr317.txt"
+./technical/biomed/bcr317.txt
+```
+
+<br/>
+
+**Find Directory by Name:** <br/>
+
+```
+(base) Lindseys-MacBook-Pro:docsssearch Linz$ find . -type d -name "911report"
+./technical/911report
+(base) Lindseys-MacBook-Pro:docsssearch Linz$ find . -type d -name "biomed"
+./technical/biomed
+```
+
+<br/>
+
+**Find Directory by Type:** <br/>
+
+```
+(base) Lindseys-MacBook-Pro:docsssearch Linz$ find ./ -type d
+./
+.//lib
+.//.git
+.//.git/objects
+.//.git/objects/pack
+.//.git/objects/info
+.//.git/info
+.//.git/logs
+.//.git/logs/refs
+.//.git/logs/refs/heads
+.//.git/logs/refs/remotes
+.//.git/logs/refs/remotes/origin
+.//.git/logs/refs/remotes/upstream
+.//.git/hooks
+.//.git/refs
+.//.git/refs/heads
+.//.git/refs/tags
+.//.git/refs/remotes
+.//.git/refs/remotes/origin
+.//.git/refs/remotes/upstream
+.//.git/branches
+.//technical
+.//technical/government
+.//technical/government/About_LSC
+.//technical/government/Env_Prot_Agen
+.//technical/government/Alcohol_Problems
+.//technical/government/Gen_Account_Office
+.//technical/government/Post_Rate_Comm
+.//technical/government/Media
+.//technical/plos
+.//technical/biomed
+.//technical/911report
+(base) Lindseys-MacBook-Pro:docsssearch Linz$ find ./technical -type d
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+./technical/plos
+./technical/biomed
+./technical/911report
+```
+
+<br/>
+
+**Find File by Size:** <br/>
+
+```
+(base) Lindseys-MacBook-Pro:docsssearch Linz$ find ./technical/911report -type f -size -1M
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-8.txt
+./technical/911report/preface.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+(base) Lindseys-MacBook-Pro:docsssearch Linz$ find ./technical/911report -type f -size +100k
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-12.txt
+```
+
+<br/>
+
 
