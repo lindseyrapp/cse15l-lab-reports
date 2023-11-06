@@ -23,9 +23,9 @@ public void testReverseInPlace() {
 <br/>
 **Symptom:** <br/>
 **With Failure Inducing Input:** <br/>
-![Image](privPath.png) <br/>
+![Image](failInduce.png) <br/>
 **With Input that does not Induce Failure:** <br/>
-![Image](privPath.png) <br/>
+![Image](noFail.png) <br/>
 
 
 
