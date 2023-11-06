@@ -4,6 +4,7 @@
 
 ## **Part 1-Bugs:** <br/>
 **Failure Inducing Input in Test:** <br/>
+
 ```
 public void testReverseInPlace() {
     int[] input1 = {3,1};
@@ -11,8 +12,10 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{1,3}, input1);
   }
 ```
+
 <br/>
 **Input that does not Induce Failure in Test:** <br/>
+
 ```
 public void testReverseInPlace() {
     int[] input1 = {3};
@@ -20,6 +23,7 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{3}, input1);
   }
 ```
+
 <br/>
 **Symptom:** <br/>
 **With Failure Inducing Input:** <br/>
@@ -28,6 +32,7 @@ public void testReverseInPlace() {
 ![Image](noFail.png) <br/>
 
 **Code Before Fix:** <br/>
+
 ```
 // Changes the input array to be in reversed order
   static void reverseInPlace(int[] arr) {
@@ -36,8 +41,10 @@ public void testReverseInPlace() {
     }
   }
 ```
+
 <br/>
 **Code After Fix:** <br/>
+
 ```
 // Changes the input array to be in reversed order
   static void reverseInPlace(int[] arr) {
@@ -48,6 +55,7 @@ public void testReverseInPlace() {
     }
   }
 ```
+
 <br/>
 The original code failed because it tried to reverse the array by copying values from the end all the way to the beginning. Because of this, elements were overwritten, & the array produced was not reversed as desired.
 The updated method fixed this by iterating up to half of the array's length & creating a temporary array to store values. During each iteration, the new method swaps the elements from the beginning and the end of the array. Because “temp” was created, no values were overwritten like before, so it works as desired.
