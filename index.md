@@ -6,3 +6,5 @@
 
 [**Lab Report 3**](https://lindseyrapp.github.io/cse15l-lab-reports/LabReport3) </br>
 
+[**Lab Report 4**](https://lindseyrapp.github.io/cse15l-lab-reports/LabReport4) </br>
+
