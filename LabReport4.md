@@ -4,9 +4,9 @@
 
 ## CS 15L
 
-## **Part 1-Bugs:** <br/>
+**Log into ieng6:** <br/>
 
-**Failure Inducing Input in Test:** <br/>
+![Image](firstRun.png) <br/>
 
 ```
 public void testReverseInPlace() {
@@ -17,4 +17,75 @@ public void testReverseInPlace() {
 ```
 
 <br/>
+
+**Log into ieng6:** <br/>
+
+![Image](firstRun.png) <br/>
+
+```
+public void testReverseInPlace() {
+    int[] input1 = {3,1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1,3}, input1);
+  }
+```
+
+<br/>
+
+**Log into ieng6:** <br/>
+
+![Image](firstRun.png) <br/>
+
+```
+public void testReverseInPlace() {
+    int[] input1 = {3,1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1,3}, input1);
+  }
+```
+
+<br/>
+
+**Log into ieng6:** <br/>
+
+![Image](firstRun.png) <br/>
+
+```
+public void testReverseInPlace() {
+    int[] input1 = {3,1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1,3}, input1);
+  }
+```
+
+<br/>
+
+**Log into ieng6:** <br/>
+
+![Image](firstRun.png) <br/>
+
+```
+public void testReverseInPlace() {
+    int[] input1 = {3,1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1,3}, input1);
+  }
+```
+
+<br/>
+
+**Log into ieng6:** <br/>
+
+![Image](firstRun.png) <br/>
+
+```
+public void testReverseInPlace() {
+    int[] input1 = {3,1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1,3}, input1);
+  }
+```
+
+<br/>
+
 
