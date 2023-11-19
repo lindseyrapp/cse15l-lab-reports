@@ -6,7 +6,7 @@
 
 My baseline time for this lab was 27 seconds and my improved time was 21 seconds. My best tip for efficiency is using test.sh to run tests. I am comfortable with this process because I use these techniques/commands frequently in my job, hence the fast baseline time.
 
-**Log into ieng6:** <br/>
+## **Log into ieng6:** <br/>
 
 ![Image](ieng6.png) <br/>
 
@@ -14,7 +14,7 @@ In order to log into the remote server ieng6, I typed `ssh cs15lfa23qs@ieng6.ucs
 
 <br/>
 
-**Clone fork of the repository from Github account (using the SSH URL):** <br/>
+## **Clone fork of the repository from Github account (using the SSH URL):** <br/>
 
 ![Image](clone.png) <br/>
 
@@ -22,7 +22,7 @@ In order to clone my forked repository, I typed `git clone git@github.com:lindse
 
 <br/>
 
-**Run the tests, demonstrating that they fail:** <br/>
+## **Run the tests, demonstrating that they fail:** <br/>
 
 ![Image](cd.png) <br/>
 
@@ -34,7 +34,7 @@ In order to demonstrate that the tests failed, I typed `bash test.sh` into the c
 
 <br/>
 
-**Edit the code file to fix the failing test:** <br/>
+## **Edit the code file to fix the failing test:** <br/>
 
 ![Image](vim.png) <br/>
 
@@ -46,7 +46,7 @@ Here, you can see the replaced code after the fix. To achieve this, I pressed `?
 
 <br/>
 
-**Run the tests, demonstrating that they now succeed:** <br/>
+## **Run the tests, demonstrating that they now succeed:** <br/>
 
 ![Image](pass.png) <br/>
 
@@ -54,7 +54,7 @@ In order to demonstrate that the tests passed, I pressed `<up>` `<up>` which wen
 
 <br/>
 
-**Commit and push the resulting change to your Github account:** <br/>
+## **Commit and push the resulting change to your Github account:** <br/>
 
 ![Image](addCommitPush.png) <br/>
 
