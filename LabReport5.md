@@ -43,13 +43,4 @@ How I fixed it: To fix the bug, I changed the return type from int to double for
 
 
 ## **Part 2:** <br/>
-**Path to Private Key:** <br/>
-![Image](privPath.png) <br/>
-**Path to Public Key:** <br/>
-![Image](pubPath.png) <br/>
-**Successful Login with no Password:** <br/>
-![Image](successNoPW.png) <br/>
-
-## **Part 3:** <br/>
-During weeks 2 and 3, I learned about using methods in servers to edit files using the search bar, which I have never done before. I also learned about the use of private and public keys to gain access to remote servers without having to use a password each time which is very useful.
-<br/>
+In the second half of the quarter for this lab, I learned a lot about command line tools and ways to make identifying bugs easier. Something specific I learned was the wc command. I have used the command line a lot before for my job, but have never had to use this command. I like that it counts words, lines, and characters. This could be useful in the future so I was happy to learn about it. I also learned different ways to utilize vim. I have used it with the insert mode, but I had not previously used the shortcuts like replace, delete, etc. This can make editing files easier for sure.
