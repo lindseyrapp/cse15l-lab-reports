@@ -19,7 +19,7 @@ Here, I followed the TA's advice and entered two even integers as input. It retu
 <br/>
 <br/>
 ![Image](vimFix.png) <br/>
-Here, as suggested, I used vim to fix the code. I entered insert mode and changed the return type from into to double for findAvg. I also changed the "2" to "2.0" in the equation to be consistent with doubles.
+Here, as suggested, I used vim to fix the code. I entered insert mode and changed the return type from int to double for findAvg. I also changed the "2" to "2.0" in the equation to be consistent with doubles.
 <br/>
 <br/>
 ![Image](fixed.png) <br/>
