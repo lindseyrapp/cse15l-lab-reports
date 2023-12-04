@@ -11,12 +11,26 @@ This is the question posted on edStem with the failure-inducing input and sympto
 This is the response from the "TA" with a suggestion on commands to run to identify the bug.
 <br/>
 **Trying Out the Suggestions:** <br/>
-![Image](try.png) <br/>
-This is an attempt at entering two even integers as input. It returned the correct average. Because of this result, I will now try the next commands the TA suggested.
+![Image](firstTry.png) <br/>
+Here, I followed the TA's advice and entered two even integers as input. It returned the correct average. Because of this result, I ran the cat command to inspect the code and found that the TA's prediction was correct: the return type was incorrect for the findAvg function.
 <br/>
-![Image](try.png) <br/>
-This is an attempt at entering two even integers as input. It returned the correct average.
+![Image](vimFix.png) <br/>
+Here, as suggested, I used vim to fix the code. I entered insert mode and changed the return type for findAvg. I also changed the "2" to "2.0" in the equation to be consistent with doubles.
 <br/>
+![Image](fixed.png) <br/>
+Here, I ran the bash script with the new and improved code. I entered the same integers that originally caused failure, and the code returned the correct value this time.
+<br/>
+**Necessary Information:** <br/>
+![Image](codeVS.png) <br/>
+This was the code in AverageCalculator.java **BEFORE** the bug was fixed. This file was stored in the Desktop directory on my computer.
+<br/>
+![Image](bash.png) <br/>
+This was the contents of the bash script, which did not change throughout the process. This file was stored in the Desktop directory on my computer.
+<br/>
+![Image](symptom.png) <br/>
+Here is the full command line that was run to produce the original symptom. 
+<br/>
+How I fixed it: To fix the bug, I changed the return type from int to double for the findAvg function. I also changed the 2 in the equation to 2.0.
 
 
 ## **Part 2:** <br/>
