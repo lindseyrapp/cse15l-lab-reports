@@ -3,9 +3,10 @@
 ## CS 15L
 
 ## **Part 1:** <br/>
-**EdStem Question:** <br/>
+**EdStem Question:** <br/> <br/>
 ![Image](edStemQ.png) <br/>
 This is the question posted on edStem with the failure-inducing input and symptom.
+<br/>
 **EdStem TA Response:** <br/>
 ![Image](edStemA.png) <br/>
 This is the response from the "TA" with a suggestion on commands to run to identify the bug.
